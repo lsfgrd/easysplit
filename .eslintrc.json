@@ -1,3 +1,13 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "airbnb",
+    "airbnb-typescript",
+    "prettier"
+  ],
+  "plugins": ["react"],
+  "settings": {
+    "import/extensions": [".ts", ".json", ".css", ".csv"],
+    "import/ignore": ["node_modules"]
+  }
 }
